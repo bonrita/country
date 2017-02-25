@@ -1,0 +1,5 @@
+country.admin.structure.settings:
+  title: Country settings
+  description: 'Configure Countries'
+  route_name: country.settings
+  parent: system.admin_structure

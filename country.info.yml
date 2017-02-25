@@ -1,0 +1,5 @@
+name: Country
+type: module
+description: Country helpers for Global
+core: 8.x
+package: custom

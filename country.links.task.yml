@@ -1,0 +1,26 @@
+country.settings_tab:
+  title: 'Settings'
+  route_name: country.settings
+  base_route: country.settings
+
+entity.country.canonical:
+  title: 'View'
+  route_name: entity.country.canonical
+  base_route: entity.country.canonical
+
+entity.country.edit_form:
+  route_name: entity.country.edit_form
+  base_route: entity.country.canonical
+  title: Edit
+
+entity.country.delete_form:
+  route_name:  entity.country.delete_form
+  base_route:  entity.country.canonical
+  title: Delete
+  weight: 10
+
+entity.country.collection:
+  title: 'Countries'
+  route_name: entity.country.collection
+  base_route: system.admin_content
+  weight: 0

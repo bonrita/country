@@ -1,0 +1,8 @@
+services:
+  country.current:
+    class: Drupal\country\CurrentCountry
+    arguments: []
+  country.country_manager:
+    class: Drupal\country\CountryManager
+    arguments: ["@entity_type.manager", "@entity.query"]
+

@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ * Hook implementations for Chep Country module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function country_theme() {
+
+  $theme['country'] = array(
+    'render element' => 'elements',
+    'file' => 'country.page.inc',
+    'template' => 'country',
+  );
+  return $theme;
+}
